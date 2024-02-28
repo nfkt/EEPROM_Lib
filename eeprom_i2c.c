@@ -22,8 +22,8 @@ uint32_t EEPROM_DEV_TABLE[4][7] = {
 //  Chip_Type        Size   Address Bits     Address size       Address mask   Rd Size   Wr Size   Timeout
     [x24C08]   =   { 1024,   8,          I2C_MEMADD_SIZE_8BIT,  0x000000FF,     256,        16,     100 },
     [x24C32]   =   { 4096,   0,          I2C_MEMADD_SIZE_16BIT, 0x00000000,     256,        32,     100 },
-    [x24M01]   =   { 131072, 16,         I2C_MEMADD_SIZE_16BIT, 0x0000FFFF,     256,        256,    100 },
-    [x24M01X4] =   { 524288, 16,         I2C_MEMADD_SIZE_16BIT, 0x0000FFFF,     256,        256,    100 }
+    // [x24M01]   =   { 131072, 16,         I2C_MEMADD_SIZE_16BIT, 0x0000FFFF,     256,        256,    100 },
+    // [x24M01X4] =   { 524288, 16,         I2C_MEMADD_SIZE_16BIT, 0x0000FFFF,     256,        256,    100 }
 };
 
 /******************************* static functions ***************************/
