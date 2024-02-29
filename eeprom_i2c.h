@@ -69,7 +69,7 @@ EE_State_t;
  * @param len 
  * @return EE_State_t 
  */
-EE_State_t EEPROM_Write(EEPROM_Chip_t eeprom_chip, uint8_t* data, uint16_t len);
+EE_State_t EEPROM_Write(EEPROM_Chip_t eeprom_chip, uint32_t memory_addr, uint8_t* data, uint16_t len);
 
 /**
  * @brief 
